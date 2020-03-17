@@ -1,6 +1,6 @@
-# Welcome to AzerothJS!
+# Welcome to DevEgg!
 
-Welcome to DevEgg!
+
 
 ![](./img/azeroth_screenshot.png)
 
