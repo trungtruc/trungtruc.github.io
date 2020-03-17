@@ -210,8 +210,7 @@ html, body {
     content: "";
     display: block;
   }
-  .posts .post__link,
-  .posts .post__link:hover {
+  .posts .post__link {
     padding-top: 12px;
     padding-bottom: 12px;
   }
