@@ -3,4 +3,4 @@
 
 ## Want to read more about Markdown?
 
-- [Markdown Test Page](#lorem-ipsum)
+- [Markdown](#lorem-ipsum)
