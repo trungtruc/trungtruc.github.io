@@ -125,9 +125,9 @@ html, body {
 }
 
 .header {
-    background-color: #FAFAFA;
+    background-color: #3498db;
     padding: 30px;
-    color: #e74c3c;
+    color: #fff;
     font-weight: bold;
     font-size: 22px;
     position: relative;
@@ -139,7 +139,6 @@ html, body {
 
 .header > a {
     font-weight: 400;
-    color: #e74c3c;
 }
 
 .large-image {
