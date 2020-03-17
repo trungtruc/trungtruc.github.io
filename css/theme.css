@@ -201,7 +201,7 @@ html, body {
 .post__date:before {
   content: "/ ";
 }
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 500px)  {
   .post__title {
     display: block;
     color: #3498db;
