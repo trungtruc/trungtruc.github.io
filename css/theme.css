@@ -188,3 +188,6 @@ html, body {
   color: #3498db;
   padding: 20px 12px;
 }
+.post__link:hover .tag {
+  font-weight: normal;
+}
