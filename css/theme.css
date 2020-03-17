@@ -201,7 +201,7 @@ html, body {
 .post__date:before {
   content: "/ ";
 }
-@media (min-width: 320px) and (max-width: 480px)  {
+@media (max-width: 768px)  {
   .post__title {
     display: block;
   }
