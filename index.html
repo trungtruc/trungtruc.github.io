@@ -10,23 +10,16 @@
   <link rel="stylesheet" href="./css/fontello.css">
   <script src="./js/highlight.pack.js"></script>
   <script src="./js/marked.js"></script>
+  <script src="./js/initLoad.js"></script>
 </head>
-<body>
+
+<body onload="startup()" onhashchange="launch()">
   <div class="header">
     <a href="#home"><i class="icon icon-emo-coffee"></i> DevEgg</a>
   </div>
-  <div class="container">
+  <div class="container"> 
     <h1>Welcome to DevEgg!</h1>
-    <div class="main">
-      <div class="posts">
-        <div class="post">
-          <a href="#ABC" class="post__link">
-            <h3 class="post__title">BEM là cái khỉ gì? 🤔</h3>
-            <span class="post__date">Published Tuesday, March 17, 2020</span>
-          </a>
-        </div>
-      </div>
-    </div>
+    <div class="main"></div>
   </div>
   <div class="footer">
     <p>Created with <a target='blank' href="http://github.com/huytd/azeroth-js">azeroth.js</a></p>
@@ -40,6 +33,11 @@
   </div>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160824218-1"></script>
   <script>
+    // const postLinks = document.querySelectorAll('.post__link');
+    // postLinks.forEach(link => {
+    //   link.addEventListener('click', startup())
+    // })
+
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
