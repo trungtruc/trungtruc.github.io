@@ -35,6 +35,7 @@ var blogTitle = 'DevEgg';
       const date = document.createTextNode(postDate);
 
       postTitleHeading.appendChild(title);
+      postTitleHeading.setAttribute('class', 'post__title');
       postDateSpan.appendChild(date);
       postDateSpan.setAttribute('class', 'post__date')
 
@@ -75,9 +76,9 @@ var blogTitle = 'DevEgg';
         linkStub.setAttribute('class', 'posts')
         container.appendChild(linkStub);
 
-        const postBlock = document.createElement('div');
-        postBlock.setAttribute('class', 'post');
-        linkStub.appendChild(postBlock);
+        // const postBlock = document.createElement('div');
+        // postBlock.setAttribute('class', 'post');
+        // linkStub.appendChild(postBlock);
 
 
         posts.forEach(post => {

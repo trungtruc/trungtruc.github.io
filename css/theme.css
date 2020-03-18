@@ -191,13 +191,16 @@ body {
 }
 
 .posts {
-  border-bottom: 1px dotted #303030;
   margin: 0;
   position: relative;
 }
 
 .posts:first-child {
   padding-top: 0;
+}
+
+.post {
+  border-bottom: 1px dotted #303030;
 }
 
 .post .post__link {
