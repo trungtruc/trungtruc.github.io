@@ -29,7 +29,7 @@ var blogTitle = 'DevEgg';
 
     var createLink = function (href, postTitle, postDate) {
       var link = document.createElement('a');
-      const postTitleHeading = document.createElement('h4');
+      const postTitleHeading = document.createElement('h3');
       const postDateSpan = document.createElement('span');
       const title = document.createTextNode(postTitle);
       const date = document.createTextNode(postDate);
